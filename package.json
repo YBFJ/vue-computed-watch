@@ -2,7 +2,9 @@
   "name": "computed_watch",
   "version": "0.1.0",
   "private": true,
+  "main": "index.html",
   "scripts": {
+    "start": "parcel index.html --open",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
